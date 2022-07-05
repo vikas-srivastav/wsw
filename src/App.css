@@ -3,13 +3,52 @@
   src: url('../src/Assets/font/CalamityRegular.otf');
 }
 
+@font-face {
+  font-family: "CourierStd";
+  src: url('../src/Assets/font/CourierStd.otf');
+}
+@font-face {
+  font-family: "CalamityOutline";
+  src: url('../src/Assets/font/CalamityOutline.otf');
+}
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 h1{
-  font-family: "CalamityRegular";
+  font-family: "CalamityOutline";
+  font-size: 3rem !important;
+  letter-spacing: 5px;
+  color: #ffffff;
+}
+h3{
+  font-family:"CalamityRegular";
+  color: #fff;
+  font-size: 2.5rem !important;
+  letter-spacing: 3px;
+}
+
+h2{
+  font-family:"CalamityRegular";
+  font-size: 3rem !important;
+  color: #000000;
+  letter-spacing: 2px;
+}
+
+h5{
+  font-size: 17px;
+  font-weight: lighter;
+  color: #eb3323;
+  letter-spacing: 2px;
+}
+
+p{
+  color: #000;
+  font-size: 20px;
+  font-family: "CourierStd";
 }
 
 .container-wrap {

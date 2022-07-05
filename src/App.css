@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "CalamityRegular";
+  src: url('../src/Assets/font/CalamityRegular.otf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1{
+  font-family: "CalamityRegular";
+}
+
+.container-wrap {
+  max-width: 1625px;
+  padding: 0px 10px;
+  margin: auto;
+}
+img{
+  width: 100%;
+}

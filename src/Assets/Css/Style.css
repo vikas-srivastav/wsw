@@ -1,0 +1,173 @@
+
+/* Footer Css  */
+
+#footer {
+    max-width: 100%;
+    height: auto;
+    background-color: #000;
+  }
+  
+  .footone h4 {
+    color: #fff;
+    margin-left: 13px;
+  }
+  
+  .inpfot {
+    max-width: 100%;
+    height: 47px;
+    border-style: none;
+    letter-spacing: 2px;
+    width: 70%;
+    padding: 15px 10px;
+    border-radius: 50px 0px 0px 50px;
+    font-style: italic;
+    padding: 17px;
+  }
+  .inp {
+    padding: 6px;
+  }
+  
+  .inp i {
+    padding: 17px;
+    background-color: #eb3323;
+    max-width: 100%;
+    color: #fff;
+    width: 64px;
+    align-items: center;
+    border-radius: 0px 50px 50px 0px;
+    max-height: 48px;
+  }
+  .foot {
+    padding: 20px 10px;
+  }
+  .copytxtfoot h6 {
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    font-family: serif;
+  }
+  .foot-social-icons a {
+    margin: 0px 8px;
+  }
+  .foot-social-icons .fa-brands {
+    color: #fff;
+  }
+  .logo-img {
+    text-align: center;
+  }
+  
+  .logo-img img {
+    max-width: 210px;
+  }
+  
+  .copytxtfoot p {
+    color: #eb3323;
+    cursor: pointer;
+    letter-spacing: 1px;
+  }
+  .processbar img {
+    max-width: 100%;
+    width: 100%;
+  }
+  .foot-social-icons a img {
+    width: 22px;
+  }
+  
+  /* Header Css */
+
+
+  .navbar .container-wrap{
+    width: 100%;
+  }
+  
+  .navbar-expand-lg {
+    background-color: #000 !important;
+  }
+  .nav-item {
+    color: #fff;
+  }
+  
+  a.nav-link {
+    color: #fff !important;
+    font-weight: 600;
+  }
+  .navbar-light .navbar-nav {
+    color: #fff !important;
+  }
+  
+  .social-icons a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .social-icons a .fa-twitter {
+    margin: 0px 20px;
+    color: #fff;
+  }
+  .social-icons a img {
+    margin: 0px 20px 0px 0px;
+    width: 17px;
+    font-weight: 400;
+  }
+  #head-nav {
+    margin: 0px 5px;
+  }
+  
+  .dropdown-menu {
+    background-color: #eb3323 !important;
+    text-align: center !important;
+    font-size: 14px !important;
+    font-weight: 600;
+    opacity: 0.8;
+  }
+  .rgt-text span h1{
+    color: #fff;
+  }
+  
+  /* Home Section */
+  
+  #right-flex{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10rem;
+  }
+  
+  
+  
+  #home-head{
+    background-image: url('../image/home-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+  }
+  .left-img img{
+    width: 55%;
+  }
+  
+  .tkn img{
+    width: 50%;
+  }
+  
+  /* About Section */
+  
+  #about-us{
+    background-image: url("../image/section2bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+  }
+  
+  .abt-rgt{
+      padding: 30px;
+      text-align: end;
+  }
+  
+  .abt-left img{
+    width: 55%;
+  }
+
+  /*  Faq section  */
+  .faq-section {
+   background-image: url(
+     "../image/faq-background.jpg"
+   );
+ } 

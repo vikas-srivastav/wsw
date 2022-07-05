@@ -1,8 +1,7 @@
 const accordionData = [
     {
       title: 'WHAT IS A WOLF STREET WOLF',
-      content: `Wall Street Wolves is an NFT collection of 10,000 wolves.
-      We hunt and invest in opportunities for a community vault that you can earn shares in through staking!`
+      content: '<h1> Wall Street Wolves is an NFT collection of 10,000 wolves. We hunt and invest in opportunities for a community vault that you can earn shares in through staking!</h1>'
     },
     {
       title: 'WHY ARE YOU LAUNCHING THIS PROJECT?',

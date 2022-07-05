@@ -1,8 +1,7 @@
 import React from "react";
-import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 import { NavLink, Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
-import Accordion from "react-bootstrap/Accordion";
 import logo from "../Assets/image/WSW.png";
 import Sea from "../Assets/image/OpenSea.png";
 
@@ -73,19 +72,19 @@ const Header = () => {
                 <div className="social-icons mx-5">
                   <a
                     href="https://discord.com/invite/PZ7TtYGH5c"
-                    target="_blank"
+                    target="_blank" rel="noopener noreferrer"
                   >
                     <i className="fa-brands fa-discord" aria-hidden="true"></i>
                   </a>
-                  <a href="https://twitter.com/wallstwolvesnft" target="_blank">
+                  <a href="https://twitter.com/wallstwolvesnft" target="_blank" rel="noopener noreferrer">
                     <i className="fa-brands fa-twitter" aria-hidden="true"></i>
                   </a>
-                  <a href="https://twitter.com/login" target="_blank">
+                  <a href="https://twitter.com/login" target="_blank" rel="noopener noreferrer">
                     <img src={Sea} alt="opensea" className="img-fluid" />
                   </a>
                   <a
                     href="https://www.instagram.com/wallstwolvesnft/"
-                    target="_blank"
+                    target="_blank" rel="noopener noreferrer"
                   >
                     <i
                       className="fa-brands fa-instagram"

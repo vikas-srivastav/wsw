@@ -23,6 +23,7 @@ h1{
   font-size: 3rem !important;
   letter-spacing: 5px;
   color: #ffffff;
+  font-weight: 500;
 }
 h3{
   font-family:"CalamityRegular";
@@ -39,10 +40,10 @@ h2{
 }
 
 h5{
-  font-size: 17px;
-  font-weight: lighter;
+  font-size: 17px !important;
+  font-weight: lighter !important;
   color: #eb3323;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 p{

@@ -6,6 +6,7 @@ import Arrow from "../Assets/image/arrow.png";
 import Roadmap from "./Roadmap";
 import Team from "./Team";
 import FAQS from "./FAQS";
+import { Link } from "react-router-dom"; 
 
 const Home = () => {
   return (
@@ -22,8 +23,10 @@ const Home = () => {
                 <img src={Arrow} alt="RightArrow" className="img-fluid" />
               </div>
               <div className="tkn pt-4">
-                <button>
+                <button >
+                  <Link to="/mint">
                 <img src={Token} alt="Token" className="img-fluid" />
+                </Link>
                 </button>
               </div>
             </div>

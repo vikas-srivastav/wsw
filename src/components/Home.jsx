@@ -48,8 +48,8 @@ const Home = () => {
       <h1>FAQs</h1>
       <p>frequently asked questions</p>
       <div>
-      {accordionData.map(({ title, content }) => (
-          <FAQS title={title} content={content} />
+      {accordionData.map(({ id,title, content }) => (
+          <FAQS id={id} title={title} content={content} />
         ))}
         </div>   
     </div>

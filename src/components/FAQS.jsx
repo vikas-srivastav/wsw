@@ -1,16 +1,21 @@
 import React, {useState} from "react";
+import { Accordion } from "react-bootstrap";
 
-const FAQS = ({ title, content }) => {
+const FAQS = ({ id, title, content }) => {
   const [isActive, setIsActive] = useState(false);
+  
   return (
     <>
-    <div className="accordion-item-faq">
-      <div className="accordion-title" onClick={() => setIsActive(!isActive)}>
-        <div>{title}</div>
-        <div>{isActive ? 'x' : '+'}</div>
-      </div>
-      {isActive && <div className="accordion-content">{content}</div>}
-    </div>
+    
+
+    <Accordion>
+  <Accordion.Item eventKey={id}>
+    <Accordion.Header>{title}</Accordion.Header>
+    <Accordion.Body>
+    {content}
+    </Accordion.Body>
+  </Accordion.Item>
+</Accordion>
     </>
   );
 }

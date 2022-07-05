@@ -6,6 +6,7 @@ import Arrow from "../Assets/image/arrow.png"
 import Roadmap from "./Roadmap";
 import Team from "./Team";
 import FAQS from "./FAQS"
+import  accordionData  from './utils/content';
 
 const Home = () => {
   return (
@@ -43,10 +44,14 @@ const Home = () => {
       <Roadmap />
       <Team />
       {/*  START FAQ SECTION   */}
-    <div className="faq-section container-wrap" id="main-faq">
+    <div className="faq-section" id="main-faq">
       <h1>FAQs</h1>
       <p>frequently asked questions</p>
-      <FAQS />   
+      <div>
+      {accordionData.map(({ title, content }) => (
+          <FAQS title={title} content={content} />
+        ))}
+        </div>   
     </div>
     {/* END FAQ SECTION */} 
     </>

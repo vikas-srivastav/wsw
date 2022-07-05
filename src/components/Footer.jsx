@@ -64,7 +64,7 @@ const Footer = () => {
                   <h6>
                     <span>©2022 Wall Street Wolves LLC</span>{" "}
                   </h6>
-                  <p>WSW All Rights Reserved.</p>
+                  <h5>WSW All Rights Reserved.</h5>
                 </div>
               </div>
             </div>

@@ -60,11 +60,6 @@
     max-width: 210px;
   }
   
-  .copytxtfoot p {
-    color: #eb3323;
-    cursor: pointer;
-    letter-spacing: 1px;
-  }
   .processbar img {
     max-width: 100%;
     width: 100%;
@@ -75,13 +70,13 @@
   
   /* Header Css */
 
-
-  .navbar .container-wrap{
+  .navbar-expand-lg{
+    position: fixed;
+    background: transparent;
     width: 100%;
   }
-  
-  .navbar-expand-lg {
-    background-color: #000 !important;
+  #basic-navbar-nav{
+    justify-content: space-around;
   }
   .nav-item {
     color: #fff;
@@ -127,10 +122,12 @@
   
   #right-flex{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     padding-top: 10rem;
   }
-  
+  .left-img img{
+    max-width: 450px;
+  }
   
   
   #home-head{
@@ -139,12 +136,18 @@
     background-repeat: no-repeat;
   
   }
-  .left-img img{
-    width: 55%;
-  }
-  
   .tkn img{
-    width: 50%;
+    max-width: 95px;
+  }
+  .tkn button{
+    background: no-repeat;
+    border: none;
+  }
+
+
+
+  .rgt-arow img{
+    max-width: 30px;
   }
   
   /* About Section */
@@ -162,7 +165,10 @@
   }
   
   .abt-left img{
-    width: 55%;
+    max-width: 450px;
+  }
+  .about img{
+    margin-top: -25px;
   }
 
   /*  Faq section  */

@@ -2,7 +2,10 @@
   font-family: "CourierStd";
   src: url('../font/CourierStd.otf');
 }
-
+@font-face {
+  font-family: "CalamityRegular";
+  src: url('../font/CalamityRegular.otf');
+}
 /* Footer Css  */
 
 #footer {
@@ -71,7 +74,10 @@
   .foot-social-icons a img {
     width: 22px;
   }
-  
+  .footone h6{
+      color: #fff !important;
+      margin-left: 15px;
+  }
   /* Header Css */
 
   .navbar-expand-lg{
@@ -84,11 +90,12 @@
   }
   .nav-item {
     color: #fff;
+    font-family: "CalamityRegular";
   }
   
   a.nav-link {
     color: #fff !important;
-    font-weight: 600;
+    font-family: "CalamityRegular";
   }
   .navbar-light .navbar-nav {
     color: #fff !important;
@@ -132,8 +139,19 @@
   .left-img img{
     max-width: 450px;
   }
-  
-  
+  .rotate{
+    animation: rotation 2s infinite linear;
+  }
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
   #home-head{
     background-image: url('../image/home-bg.png');
     background-size: cover;
@@ -147,8 +165,6 @@
     background: no-repeat;
     border: none;
   }
-
-
 
   .rgt-arow img{
     max-width: 30px;
@@ -175,12 +191,7 @@
     margin-top: -25px;
   }
 
-  /*  Faq section  */
-  .faq-section {
-   background-image: url(
-     "../image/faq-background.jpg"
-   );
- } 
+ 
 
 
  /* RoadMap Section */
@@ -197,16 +208,8 @@
  .rgt-list ul li{
   color: #fff;
   padding: 10px;
- }
-  
-
- .rgt-list ul li span{
-  background: #eb3323;
-  border-radius: 7px;
-  padding: 2px;
-  letter-spacing: 2px;
-  color: #ffffff;
   font-family: "Courier Std";
+  letter-spacing: 1px;
  }
  .rgt-list ul li:nth-child(5) span {
   background: #fff;
@@ -221,4 +224,142 @@
 .spanone{
   color: #eb3323 !important;
   background:none !important;
+}
+
+.lft-roadimg img{
+  max-width: 410px;
+}
+.divider img{
+  margin-top: -25px;
+}
+
+
+/* Team Section */
+
+.teamtitle{
+  max-width: 933px;
+}
+.card-info{
+  background: #eb3323;
+  padding: 11px;
+  border-radius: 9px;
+}
+.card-info a, i{
+  color: #ffffff;
+  text-decoration: none;
+  margin: 3px;
+}
+.card-info p{
+  color: #ffffff;
+  font-family: "Courier Std";
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+.teamhfive{
+  font-weight: lighter !important;
+  color: #000 !important;
+}
+.info-para{
+  letter-spacing: 1px;
+line-height: 23px;
+color: #ffffff;
+font-family: "Courier Std";
+}
+.anim-div{
+  border: 8px solid #fff;
+  border-radius: 14px;
+}
+.sc-dnqmqq.bVoXXg{
+  padding: 10px;
+  text-align: start;
+  position: relative;
+}
+.sc-dnqmqq.bVoXXg img{
+  border-radius: 20px 20px 0px 0px;
+}
+.accordion-button::after{
+  background-image: url('../image/plus.png') !important;
+}
+.accordion-button:not(.collapsed)::after{
+  background-image: url('../image/cross.png') !important;
+}
+
+/* .card-info{
+  color: #ffffff;
+  position: absolute;
+  opacity: 0;
+  height: 0;
+  z-index: 2;
+  left: 0;
+  bottom: 6px;
+  background-color: #802521c9;
+  width: 96%;
+  right: 0;
+  margin: auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 3px 10px;
+  transition: all .5s ease;
+}
+
+.sc-dnqmqq.bVoXXg:hover .card-info{
+  opacity: 1;
+  height: 100px;
+} */
+
+
+  /*  Faq section  */
+  #faq{
+    background-image: url(
+      "../image/faq-background.jpg"
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+.accordion{
+    padding: 50px;
+}
+.accordion-item {
+  margin: 5px 100px;
+  padding: 3px;
+  border-radius: 8px;
+}
+.faq-black{
+  color: black;
+  font-weight: 800;
+}
+.faq-red {
+  color: #eb3323;
+  background: none;
+}
+
+.faq-head{
+  display: flex;
+  justify-content: flex-start;
+}
+.faq-head h5{
+  margin-top: 16px;
+    color: #fff !important;
+}
+/* .accordion-item:nth-child(even){
+  color: #fff !important;
+}
+.accordion-item:nth-child(odd){
+  color: #fff !important;
+} */
+
+  .accordion-button:nth-child(even){
+  color: #eb3323 !important;
+}
+.cont-head{
+  color: #ffffff !important;
+}
+/* .accordion.accordion-item:nth-child(even) button.accordion-button.collapsed {
+  background: #0031ff !important;
+} */
+.accordion .accordion-item:nth-child(even) button{
+  background-color: #0031ff !important;
 }

@@ -13,12 +13,13 @@ const Header = () => {
         <div className="container-wrap my-2">
           <div className="row">
             <div className="col-md-2">
-              <Navbar.Brand>
+              
                 <Link to="/">
                   <img src={logo} alt="sitelogo" className="img-fluid" />
                 </Link>
-              </Navbar.Brand>
+              
             </div>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <div className="col-md-10">
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav>

@@ -13,7 +13,7 @@ const AboutUs = () => {
             <div className="row">
               <div className="col-md-6 abt-rgt">
                 <div className="abt-textone text-start px-5">
-                  <h2>ABOUT</h2>
+                  <h2>ABOUt</h2>
                   <p>
                     Wall Street Wolves is a project that hunts sand invests into
                     opportunities and projects for a community vault that you
@@ -21,7 +21,7 @@ const AboutUs = () => {
                   </p>
                 </div>
                 <div className="abt-texttwo px-3 mt-5">
-                  <h2>MANIFESTO</h2>
+                  <h2>MANIFEStO</h2>
                   <p>
                     Well versed in all markets, our pack dedicates their time to
                     not only finding the right prey, but teaching you to hunt

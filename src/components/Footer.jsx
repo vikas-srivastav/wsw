@@ -2,6 +2,7 @@ import React from "react";
 import Logo from "../Assets/image/Logo_Footer.gif";
 import footlogo from "../Assets/image/bar.png";
 import Sea from "../Assets/image/OpenSea.png";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -15,7 +16,7 @@ const Footer = () => {
             <div className="row my-5">
               <div className="col-md-4">
                 <div className="footone">
-                  <h4>JOIN THE PACH</h4>
+                  <h6>JOIN THE PACH</h6>
 
                   <div className="inp">
                     <input
@@ -29,11 +30,13 @@ const Footer = () => {
               </div>
               <div className="col-md-4">
                 <div className="logo-img">
+                  <Link to="https://www.dropbox.com/s/g16fe7etp93zklc/Logo_Footer.gif?dl=0">
                   <img src={Logo} alt="logo" />
+                  </Link>
                 </div>
               </div>
-              <div className="col-md-4 mt-4">
-                <div className="foot-social-icons text-center">
+              <div className="col-md-4 mt-4 text-end">
+                <div className="foot-social-icons">
                   <a
                     href="https://discord.com/invite/PZ7TtYGH5c"
                     target="_blank"
@@ -62,7 +65,7 @@ const Footer = () => {
                 </div>
                 <div className="copytxtfoot mt-2 text-center">
                   <h6>
-                    <span>©2022 Wall Street Wolves LLC</span>{" "}
+                   ©2022 Wall Street Wolves LLC
                   </h6>
                   <h5>WSW All Rights Reserved.</h5>
                 </div>

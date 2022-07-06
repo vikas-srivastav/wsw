@@ -7,6 +7,7 @@ import Roadmap from "./Roadmap";
 import Team from "./Team";
 import FAQS from "./FAQS";
 import { Link } from "react-router-dom"; 
+import ScrollAnimation from "react-animate-on-scroll";
 
 const Home = () => {
   return (
@@ -25,17 +26,21 @@ const Home = () => {
               <div className="tkn pt-4">
                 <button >
                   <Link to="/mint">
-                <img src={Token} alt="Token" className="img-fluid" />
+                <img src={Token} alt="Token" className="img-fluid rotate" />
                 </Link>
                 </button>
               </div>
             </div>
             <div className="col-md-7">
-              
+            <ScrollAnimation
+            animateIn="animate__fade animate__delay-1s"
+            animateOnce
+          >
               <div className="left-img text-end">
                 <img src={NFT} alt="NFT" className="img-fluid" />
                 
               </div>
+              </ScrollAnimation>
             </div>
           </div>
         </div>
@@ -44,10 +49,14 @@ const Home = () => {
       <Roadmap />
       <Team />
       {/*  START FAQ SECTION   */}
-      <div className="faq-section container-wrap" id="main-faq">
-        <h1>FAQs</h1>
-        <p>frequently asked questions</p>
+      <div id="faq">
+      <div className="faq-section container-wrap py-5" id="main-faq">
+        <div className="faq-head px-5">
+        <h3>FAQS</h3>
+        <h5>frequently asked questions</h5>
+        </div>
         <FAQS />
+      </div>
       </div>
       {/* END FAQ SECTION */}
     </>

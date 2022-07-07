@@ -8,7 +8,9 @@ const AboutUs = () => {
     <>
       <div id="about-us">
         <div className="about">
+          <div className="abt-bar">
           <img src={Bar} alt="bar" className="img-fluid" />
+          </div>
           <div className="container-wrap">
             <div className="row">
               <div className="col-md-6 abt-rgt">

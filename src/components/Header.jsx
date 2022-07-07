@@ -9,8 +9,9 @@ import Sea from "../Assets/image/OpenSea.png";
 const Header = () => {
   return (
     <>
+    <div className="container-wrap my-2">
       <Navbar expand="lg">
-        <div className="container-wrap my-2">
+        
           <div className="row">
             <div className="col-md-2">
               
@@ -107,8 +108,9 @@ const Header = () => {
               </Navbar.Collapse>
             </div>
           </div>
-        </div>
+       
       </Navbar>
+      </div>
     </>
   );
 };

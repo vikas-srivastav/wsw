@@ -14,7 +14,7 @@ const Home = () => {
     <>
       <div id="home-head">
         <div className="container-wrap pt-5">
-          <div className="row">
+          <div className="row pt-5">
             <div className="col-md-5 mt-5" id="right-flex">
               <div className="rgt-text mt-3">
                 <h1>CLICK</h1>
@@ -31,16 +31,22 @@ const Home = () => {
                 </button>
               </div>
             </div>
-            <div className="col-md-7">
-            <ScrollAnimation
+            <div className="col-md-7 homeleft">
+              <p className="home-para">Our mission is to become <h6>LARGEST WOLF PACK</h6> THE  in the NFT space</p>
+            {/* <ScrollAnimation
             animateIn="animate__fade animate__delay-1s"
             animateOnce
-          >
+          > */}
+          
               <div className="left-img text-end">
-                <img src={NFT} alt="NFT" className="img-fluid" />
+                <div className="dot-btn">
+                <i class="fa-solid fa-circle"></i>
+                </div>
+              <i class="fa-solid fa-circle"></i>
+                <img src={NFT} alt="NFT" className="img-fluid homeimg" />
                 
               </div>
-              </ScrollAnimation>
+              {/* </ScrollAnimation> */}
             </div>
           </div>
         </div>

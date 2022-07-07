@@ -63,7 +63,7 @@ const Footer = () => {
                     ></i>
                   </a>
                 </div>
-                <div className="copytxtfoot mt-2 text-center">
+                <div className="copytxtfoot mt-2">
                   <h6>
                    ©2022 Wall Street Wolves LLC
                   </h6>

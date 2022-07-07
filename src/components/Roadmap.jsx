@@ -7,7 +7,7 @@ const Roadmap = () => {
     <>
       <div id="ro-map">
         <div className="divider">
-          <img src={Bar} alt="Divider-Bar" />
+          <img src={Bar} alt="Divider-Bar"className="img-fluid"/>
         </div>
         <div className="roadmap px-5 py-5">
           <div className="container-wrap">

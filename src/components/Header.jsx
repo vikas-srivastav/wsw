@@ -1,24 +1,20 @@
 import React from "react";
-import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 import { NavLink, Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
-import Accordion from "react-bootstrap/Accordion";
 import logo from "../Assets/image/WSW.png";
 import Sea from "../Assets/image/OpenSea.png";
 
 const Header = () => {
   return (
     <>
-    <div className="container-wrap my-2">
-      <Navbar expand="lg">
-        
+      <div className="container-wrap">
+        <Navbar expand="lg">
           <div className="row">
             <div className="col-md-2">
-              
-                <Link to="/">
-                  <img src={logo} alt="sitelogo" className="img-fluid" />
-                </Link>
-              
+              <Link to="/">
+                <img src={logo} alt="sitelogo" className="img-fluid logo" />
+              </Link>
             </div>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <div className="col-md-10">
@@ -108,8 +104,7 @@ const Header = () => {
               </Navbar.Collapse>
             </div>
           </div>
-       
-      </Navbar>
+        </Navbar>
       </div>
     </>
   );

@@ -1,11 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import  Accordion  from "react-bootstrap/Accordion";
 import accordionData from "./utils/content";
 
 const FAQS = () => {
-  const [isActive, setIsActive] = useState(false);
-
-
   return (
     <>
       <Accordion>

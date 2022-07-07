@@ -35,7 +35,7 @@ const Footer = () => {
                   </Link>
                 </div>
               </div>
-              <div className="col-md-4 mt-4 text-end">
+              <div className="col-md-4 mt-4 ">
                 <div className="foot-social-icons">
                   <a
                     href="https://discord.com/invite/PZ7TtYGH5c"

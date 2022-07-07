@@ -80,6 +80,10 @@
 }
 /* Header Css */
 
+.logo {
+  max-width: 200px;
+}
+
 .navbar-expand-lg {
   position: fixed;
   background: transparent;
@@ -132,13 +136,25 @@ a.nav-link {
 
 /* Home Section */
 
+.left-img{
+  display:flex;
+
+}
+
+
+.btn-home{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
 #right-flex {
   display: flex;
   justify-content: center;
   padding-top: 10rem;
 }
 .homeimg {
-  max-width: 450px;
+  max-width: 480px;
 }
 
 .rotate {
@@ -172,13 +188,11 @@ a.nav-link {
 }
 
 .home-para {
-  max-width: 293px;
+  max-width: 100%;
   padding: 19px;
   border-radius: 15px;
   background: #eb3323;
   color: #fff !important;
-  height: 149px;
-  margin: 24px 0px;
   opacity: 0.7;
 }
 .home-para h6 {
@@ -192,13 +206,13 @@ a.nav-link {
 .left-img i {
   color: #eb3323;
   cursor: pointer;
+  border: 1px solid #fff;
+  padding: 5px;
+  border-radius: 15px;
 }
 .dot-btn {
   text-align: start;
-  max-width: 23px;
 }
-
-
 
 /* About Section */
 
@@ -214,7 +228,7 @@ a.nav-link {
 }
 
 .abt-left img {
-  max-width: 450px;
+  max-width: 480px;
   margin-top: -25px;
 }
 .abt-bar img {
@@ -316,50 +330,30 @@ i {
   background-image: url("../image/cross.png") !important;
 }
 
-/* .card-info{
-  color: #ffffff;
-  position: absolute;
-  opacity: 0;
-  height: 0;
-  z-index: 2;
-  left: 0;
-  bottom: 6px;
-  background-color: #802521c9;
-  width: 96%;
-  right: 0;
-  margin: auto;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  padding: 3px 10px;
-  transition: all .5s ease;
-}
-
-.sc-dnqmqq.bVoXXg:hover .card-info{
-  opacity: 1;
-  height: 100px;
-} */
-
-.card-div{
+.card-div {
   border-radius: 21px;
   padding: 8px;
   box-shadow: 13px 8px 0px #eb3323, -4px 8px 0px #eb3323, 12px 8px 0px #eb3323;
 }
-.card-info{
+.card-info {
   display: none;
 }
-.twoh-div{
+.twoh-div {
   padding: 10px;
 }
-.bqyzQp {
-  position: absolute;
-}
-.spi{
+.team-slide {
   position: relative;
-  text-align: end;
-  top: 48px;
 }
 
+.spi {
+  position: absolute;
+  right: 0;
+  display: flex;
+  bottom: -48px;
+}
+.spi img {
+  max-width: 200px;
+}
 
 /*  Faq section  */
 #faq {
@@ -377,7 +371,9 @@ i {
 }
 .faq-black {
   color: black;
-  font-weight: 800;
+  font-weight: 600;
+  background: none !important;
+  font-family: sans-serif !important;
 }
 .faq-red {
   color: #eb3323;
@@ -392,22 +388,16 @@ i {
   margin-top: 16px;
   color: #fff !important;
 }
-/* .accordion-item:nth-child(even){
-  color: #fff !important;
+.accordion-body a {
+  text-decoration: none;
 }
-.accordion-item:nth-child(odd){
-  color: #fff !important;
-} */
-
 .accordion-button:nth-child(even) {
   color: #eb3323 !important;
 }
 .cont-head {
   color: #ffffff !important;
 }
-/* .accordion.accordion-item:nth-child(even) button.accordion-button.collapsed {
-  background: #0031ff !important;
-} */
+
 .accordion .accordion-item:nth-child(even) button {
   background-color: #0031ff !important;
   border-radius: 8px;

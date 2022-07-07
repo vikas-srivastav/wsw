@@ -129,7 +129,7 @@ const Roadmap = () => {
               <div className="col-md-5 lft-roadimg">
                 <img
                   src={AnimImg}
-                  alt="Anmination Image"
+                  alt="AnminationImage"
                   className="img-fluid"
                 />
                 <div className="anim-div"></div>

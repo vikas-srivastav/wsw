@@ -7,8 +7,7 @@ import imgfour from "../Assets/image/shred.jpeg";
 import imgfive from "../Assets/image/golden.jpeg";
 import imgsix from "../Assets/image/whiz.jpeg";
 import { Link } from "react-router-dom";
-import Spicy from "../Assets/image/Spicy.png"
-import Kitsune from "../Assets/image/kitsune.png"
+import Spicy from "../Assets/image/Spicy.png";
 
 const Team = () => {
   return (
@@ -30,14 +29,14 @@ const Team = () => {
           <div className="team-slide px-5">
             <Carousel cols={4} rows={1} gap={10} loop>
               <Carousel.Item>
-              <div className="card-div">
+                <div className="card-div">
                   <img width="100%" src={imgone} alt="Brett" />
                   <div className="twoh-div">
                     <h6>BRETT SIMBA</h6>
                     <h6 className="teamhfive">AlPHA WOLF</h6>
-                    </div>
                   </div>
-                  <div className="card-info">
+                </div>
+                <div className="card-info">
                   <i class="fa-brands fa-twitter"></i>
                   <Link to="https://twitter.com/BrettSimba">@brettsimba</Link>
                   <p className="info-para">
@@ -50,8 +49,8 @@ const Team = () => {
                 <div className="card-div">
                   <img width="100%" src={imgtwo} alt="Brett" />
                   <div className="twoh-div">
-                  <h6>THE STALKERS</h6>
-                  <h6 className="teamhfive">LUNAR WOLVES</h6>
+                    <h6>THE STALKERS</h6>
+                    <h6 className="teamhfive">LUNAR WOLVES</h6>
                   </div>
                 </div>
                 <div className="card-info">
@@ -68,8 +67,8 @@ const Team = () => {
                 <div className="card-div">
                   <img width="100%" src={imgthree} alt="Brett" />
                   <div className="twoh-div">
-                  <h6>SHRED</h6>
-                  <h6 className="teamhfive">CLUB WOLF</h6>
+                    <h6>SHRED</h6>
+                    <h6 className="teamhfive">CLUB WOLF</h6>
                   </div>
                 </div>
                 <div className="card-info">
@@ -85,8 +84,8 @@ const Team = () => {
                 <div className="card-div">
                   <img width="100%" src={imgfour} alt="Brett" />
                   <div className="twoh-div">
-                  <h6>GANDALF</h6>
-                  <h6 className="teamhfive">WIZARD WOLF</h6>
+                    <h6>GANDALF</h6>
+                    <h6 className="teamhfive">WIZARD WOLF</h6>
                   </div>
                 </div>
                 <div className="card-info">
@@ -102,8 +101,8 @@ const Team = () => {
                 <div className="card-div">
                   <img width="100%" src={imgfive} alt="Brett" />
                   <div className="twoh-div">
-                  <h6>GOLDENX</h6>
-                  <h6 className="teamhfive">DEV WOLVES</h6>
+                    <h6>GOLDENX</h6>
+                    <h6 className="teamhfive">DEV WOLVES</h6>
                   </div>
                 </div>
                 <div className="card-info">
@@ -119,8 +118,8 @@ const Team = () => {
                 <div className="card-div">
                   <img width="100%" src={imgsix} alt="Brett" />
                   <div className="twoh-div">
-                  <h6>WHIZ</h6>
-                  <h6 className="teamhfive">TACTICAL WOLF</h6>
+                    <h6>WHIZ</h6>
+                    <h6 className="teamhfive">TACTICAL WOLF</h6>
                   </div>
                 </div>
                 <div className="card-info">

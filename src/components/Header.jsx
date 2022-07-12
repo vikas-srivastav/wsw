@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 import { NavLink, Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
@@ -7,24 +7,26 @@ import Sea from "../Assets/image/OpenSea.png";
 
 const Header = () => {
   const [scroll, setScroll] = useState(false);
- useEffect(() => {
-   window.addEventListener("scroll", () => {
-     setScroll(window.scrollY > 50);
-   });
- }, []);
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      setScroll(window.scrollY > 50);
+    });
+  }, []);
   return (
     <>
-      <section className={scroll ? "active-header header py-4" : "header py-3"}>
-        <div className="container-wrap py-2">
-        <div className="row">
-              <div className="col-md-2 p-0">
-                <Link to="/">
-                  <img src={logo} alt="sitelogo" className="img-fluid logo" />
-                </Link>
-                </div>
-                <div className="col-md-10 p-0 nav-res">
-                <Navbar expand="lg" className="p-0 ">
-              <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <section
+        className={scroll ? "active-header header py-3" : "header py-3"}
+      >
+        <div className="container-wrap py-md-2">
+          <div className="row">
+            <div className="col-md-2">
+              <Link to="/">
+                <img src={logo} alt="sitelogo" className="img-fluid logo" />
+              </Link>
+            </div>
+            <div className="col-md-10 nav-res">
+              <Navbar expand="lg" className="p-md-0">
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                   <Nav>
                     <li id="head-nav">
@@ -52,14 +54,13 @@ const Header = () => {
                         FAQS
                       </HashLink>
                     </li>
-                    
+
                     <li id="head-nav">
-                    
                       <NavLink className="nav-link" to="/staking">
                         STAKING
                       </NavLink>
                     </li>
-                    
+
                     <li id="head-nav">
                       <NavLink className="nav-link" to="/gallery">
                         GALLERY
@@ -99,11 +100,7 @@ const Header = () => {
                         aria-hidden="true"
                       ></i>
                     </a>
-                    <a
-                      href="#"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    <a href="#" target="_blank" rel="noopener noreferrer">
                       <img src={Sea} alt="opensea" className="img-fluid" />
                     </a>
                     <a
@@ -118,9 +115,9 @@ const Header = () => {
                     </a>
                   </div>
                 </Navbar.Collapse>
-          </Navbar>
-              </div>
-              </div>
+              </Navbar>
+            </div>
+          </div>
         </div>
       </section>
     </>

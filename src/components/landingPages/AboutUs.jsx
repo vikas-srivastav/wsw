@@ -7,14 +7,14 @@ const AboutUs = () => {
   return (
     <>
       <div id="about-us">
-        <div className="about pb-4">
+        <div className="about pb-md-4">
           <div className="scroll-img">
           <div className="bar-scroll"><img src={Bar} alt="bar" className="img-fluid bar" /></div>
           <div className="bar-scroll"><img src={Bar} alt="bar" className="img-fluid bar" /></div>
           </div>
           <div className="container-wrap">
-            <div className="row">
-              <div className="col-md-6 abt-rgt px-0 py-5">
+            <div className="row row-abt">
+              <div className="col-md-6 abt-rgt px-0 py-md-5">
                 <div className="abt-textone text-start">
                   <h2 className="htwo">ABOUt</h2>
                   <p>
@@ -23,7 +23,7 @@ const AboutUs = () => {
                     can earn shares in!
                   </p>
                 </div>
-                <div className="abt-texttwo pt-4">
+                <div className="abt-texttwo pt-md-4">
                   <h2 className="htwo">MANIFEStO</h2>
                   <p>
                     Well versed in all markets, our pack dedicates their time to
@@ -34,7 +34,7 @@ const AboutUs = () => {
                     rise to the top as an Alpha Wolf.</p>
                 </div>
               </div>
-              <div className="col-md-6 abt-left text-end p-0">
+              <div className="col-md-6 abt-left text-end p-md-0">
                 <img src={Abtimg} alt="about left image" className="img-fluid" />
               </div>
             </div>

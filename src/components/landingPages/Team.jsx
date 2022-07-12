@@ -15,7 +15,7 @@ const Team = () => {
     <>
       <div id="team" className="pt-3">
         <div className="container-wrap py-5">
-          <div className="teamtitle px-5">
+          <div className="teamtitle px-md-5">
             <h2 className="red-txt pb-2">TEAM</h2>
             <p>
               Our founding team is an excellent combination of{" "}

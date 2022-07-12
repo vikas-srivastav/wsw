@@ -3,11 +3,10 @@ import Token from "../../Assets/image/Token.png";
 import NFT from "../../Assets/image/NFT.png";
 import AboutUs from "../landingPages/AboutUs";
 import Arrow from "../../Assets/image/arrow.png";
-import Roadmap from "../landingPages/Roadmap";
+// import Roadmap from "../landingPages/Roadmap";
 import Team from "../landingPages/Team";
 import FAQS from "../landingPages/FAQS";
 import { Link } from "react-router-dom";
-import ScrollAnimation from "react-animate-on-scroll";
 import Test from "../Test";
 
 const Home = () => {
@@ -44,9 +43,9 @@ const Home = () => {
                 <div className="dot-btn">
                 {value === "first-text" ? (
                   <div className="home-para">
-                  <p className="mb-0">Our mission is to become</p>
-                    <h6 className="hsix mb-0">LARGEST WOLF PACK</h6>
-                     <p className="mb-0">THE in the NFT space</p>
+                  <p className="mb-md-0">Our mission is to become</p>
+                    <h6 className="hsix mb-md-0">LARGEST WOLF PACK</h6>
+                     <p className="mb-md-0">THE in the NFT space</p>
                   </div>
                 ) : value === "second-text" ? (
                   <div className="home-para">
@@ -78,8 +77,10 @@ const Home = () => {
                   </div>
                 </div>
                 
-
-                <img src={NFT} alt="NFT" className="img-fluid homeimg" />
+                  
+            
+                <img src={NFT} alt="NFT" className="img-fluid homeimg fadein" onLoad={"document.body.className += ' loaded';"} />
+                
               </div>
               </div>
               {/* </ScrollAnimation> */}
@@ -101,9 +102,9 @@ const Home = () => {
       {/*  START FAQ SECTION   */}
       <div id="faq" className="py-3">
         <div className="faq-section container-wrap py-5" id="main-faq">
-          <div className="faq-head px-5 d-flex">
+          <div className="faq-head px-md-5 d-flex">
             <h2 className="white-txt">FAQS</h2>
-            <p className="light-txt white-txt px-2 mt-3">frequently asked questions</p>
+            <p className="light-txt white-txt px-md-2 mt-md-3">frequently asked questions</p>
           </div>
           <FAQS />
         </div>

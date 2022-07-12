@@ -5,9 +5,9 @@ import accordionData from "../../components/utils/content";
 const FAQS = () => {
   return (
     <>
-      <Accordion className="px-5 py-5">
+      <Accordion className="px-md-5 py-md-5">
       {accordionData.map((item, index) => (
-       <Accordion.Item eventKey={index} className="mx-5 my-3">
+       <Accordion.Item eventKey={index} className="mx-md-5 my-3">
        <Accordion.Header className="faq-title">
        <div dangerouslySetInnerHTML={{ __html: item.title }} />
        </Accordion.Header>

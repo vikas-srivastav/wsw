@@ -11,9 +11,9 @@
 .active-header {
   background: #000000a6;
 }
-.row {
+/* .row {
   margin: 0px;
-}
+} */
 .header .dropdown-toggle:after {
   content: "\f107";
   font-family: "FontAwesome";
@@ -99,7 +99,7 @@ a.nav-link {
   font-weight: 100;
 }
 
-.navbar-light .navbar-toggler{
+.navbar-light .navbar-toggler {
   border: none !important;
 }
 /* header css end */
@@ -185,6 +185,7 @@ a.nav-link {
   text-align: right;
 }
 /* Home Section */
+
 .btn-home-checked input {
   position: absolute;
   width: 28px;
@@ -214,6 +215,26 @@ a.nav-link {
   animation: rotation 2s infinite linear;
 }
 
+.homeimg {
+  animation: fadein 5s;
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 @keyframes rotation {
   from {
     transform: rotate(0deg);
@@ -582,16 +603,12 @@ button.accordion-button.collapsed {
   height: unset;
   transform: rotate(45deg) !important;
 }
-.accordion-body p{
+.accordion-body p {
   letter-spacing: 2px;
   line-height: 25px;
   color: #000000;
   font-family: "CourierStdLight";
 }
-
-
-
-
 
 /* animation css border */
 .bar-scroll {
@@ -659,7 +676,7 @@ button.accordion-button.collapsed {
   letter-spacing: 1px;
 }
 .section-bg h1 {
-  font-size: 50px !important;
+  font-size: 50px ;
 }
 .triggers li button.active .section-bg {
   display: block;
@@ -669,6 +686,13 @@ button.accordion-button.collapsed {
   border-radius: 5px;
   height: 100px;
 }
+.animated{
+  opacity: 1 !important;
+}
+.sections::-webkit-scrollbar {
+  display: none;
+}
+
 
 
 /* Media Query */
@@ -707,6 +731,8 @@ button.accordion-button.collapsed {
   }
   .abt-left img {
     margin-right: 0px;
+    max-width: 350px;
+    margin-top: -18px;
   }
   .header .container-wrap {
     display: contents;
@@ -729,22 +755,70 @@ button.accordion-button.collapsed {
   .social-icons {
     display: none;
   }
-  .accordion-item{
+  .accordion-item {
     margin-right: 0rem !important;
     margin-left: 0rem !important;
   }
-  .roadmap{
+  .roadmap {
     padding-right: 0rem !important;
     padding-left: 0rem !important;
   }
-  .teamtitle{
+  .teamtitle {
     margin-right: 35px;
   }
-  .anim-img img{
-    max-width: 310px;
+  .anim-img img {
+    max-width: 300px;
   }
-  .anim-div{
-    max-width: 310px;
+  .anim-div {
+    max-width: 300px;
   }
-  
+  .spi-verti img{
+    max-width: 130px;
+  }
+  .spi img{
+    max-width: 120px;
+  }
+  .homeimg{
+    max-width: 350px;
+  }
+  .left-img{
+    flex-direction: column;
+  }
+  .row-abt{
+    flex-direction: column-reverse;
+  }
+  .btn-home-checked{
+    right: -10%;
+  }
+  #right-flex{
+    margin-bottom: 20px;
+  }
+  .home-para{
+    padding: 10px 16px;
+    max-width: 188px;
+  }
+  .dot-btn{
+    margin: 20px 0px;
+  }
+  h1{
+    font-size: calc(1.375rem + 1.5vw) !important;
+  }
+  h2{
+    font-size: calc(1.325rem + .9vw) !important;
+  }
+  .accordion{
+    padding: 0px;
+  }
+  .abt-textone{
+    margin-top: 10px;
+  }
+  button.accordion-button.collapsed {
+    padding: 0.8rem 0.5rem;
+}
+.header{
+  width: 99%;
+}
+.teamtitle{
+margin-left: 20px;
+}
 }

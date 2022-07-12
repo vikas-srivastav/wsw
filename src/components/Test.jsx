@@ -3,6 +3,9 @@ import { useActiveMenu } from "react-active-menu";
 import classNames from "classnames";
 import "../Assets/Css/Test.css";
 import AnimImg from "../Assets/image/WSW_Animation.png";
+// import ScrollAnimation from "react-animate-on-scroll";
+// import "animate.css/animate.min.css";
+
 const Test = () => {
   const scrollableRef = useRef();
   const { active, handleTriggerClick, registerSectionRef, registerTriggerRef } =
@@ -12,7 +15,7 @@ const Test = () => {
 
   return (
     <>
-      <nav className="triggers py-2">
+      <nav className="triggers py-md-2">
         <ul>
           <li>
             <button
@@ -49,14 +52,16 @@ const Test = () => {
         </ul>
       </nav>
       <div className="sections" ref={scrollableRef}>
+      
         <section
           ref={registerSectionRef("section-1")}
-          className="section-bg white-txt pt-3"
+          className="section-bg white-txt pt-md-3"
         >
-          <div className="rightsec-road mx-4">
+          
+          <div className="rightsec-road mx-md-4">
             <h3>ROADMAP</h3>
           </div>
-          <h1 className="outline-txt mx-4">LAUNCH</h1>
+          <h1 className="outline-txt mx-md-4">LAUNCH</h1>
           <div className="row">
             <div className="col-md-7 anim-list">
               <ul>
@@ -98,12 +103,17 @@ const Test = () => {
               <div className="anim-div"></div>
             </div>
           </div>
+         
         </section>
+        
+       
+       
         <section
           ref={registerSectionRef("section-2")}
-          className="section-bg white-txt pt-3"
+          className="section-bg white-txt pt-md-3"
         >
-          <h1 className="outline-txt mx-4">SHORTLY AFTER LAUNCH</h1>
+          
+          <h1 className="outline-txt mx-md-4">SHORTLY AFTER LAUNCH</h1>
           <div className="row">
             <div className="col-md-7 anim-list">
               <ul>
@@ -139,17 +149,23 @@ const Test = () => {
                 </li>
               </ul>
             </div>
-            <div className="col-md-5 anim-img py-5">
+            <div className="col-md-5 anim-img py-md-5">
               <img src={AnimImg} alt="AnminationImage" className="img-fluid" />
               <div className="anim-div"></div>
             </div>
           </div>
+        
+         
         </section>
+        
+       
+        
         <section
           ref={registerSectionRef("section-3")}
-          className="section-bg white-txt pt-3"
+          className="section-bg white-txt pt-md-3"
         >
-          <h1 className="outline-txt mx-4">A BIT DOWN THE ROAD</h1>
+         
+          <h1 className="outline-txt mx-md-4">A BIT DOWN THE ROAD</h1>
           <div className="row">
             <div className="col-md-7 anim-list">
               <ul>
@@ -169,7 +185,10 @@ const Test = () => {
               <div className="anim-div"></div>
             </div>
           </div>
+         
         </section>
+       
+       
       </div>
     </>
   );

@@ -1,0 +1,58 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* h2, */
+/* p {
+  margin: 0 0 1rem;
+} */
+
+.triggers {
+  padding: 1rem;
+  max-width: 20px;
+  position: absolute;
+  height: 400px;
+  margin-top: 70px;
+}
+.triggers ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+}
+
+
+
+
+.triggers button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  padding: 0;
+}
+.triggers button.active {
+   color: #fff;
+}
+.triggers button{
+  color: rgba(71, 71, 71, 0.842);
+}
+
+.sections {
+  height: 500px;
+  overflow: auto;
+}
+.sections section {
+  padding: 1rem;
+}
+.sections section:nth-child(odd) {
+  background-color: #f0f0f0;
+}

@@ -3,6 +3,7 @@ import Logo from "../Assets/image/Logo_Footer.gif";
 import footlogo from "../Assets/image/bar.png";
 import Sea from "../Assets/image/OpenSea.png";
 import { Link } from "react-router-dom";
+import Arrow from "../Assets/image/Arrows.png"
 
 const Footer = () => {
   return (
@@ -30,7 +31,7 @@ const Footer = () => {
                       className="inpfot"
                     />
                     <button type="submit">
-                      <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
+                     <img src={Arrow} alt="" />
                     </button>
                   </div>
                 </div>

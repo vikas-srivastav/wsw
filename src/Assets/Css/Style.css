@@ -200,6 +200,17 @@ a.nav-link {
 .col-right {
   text-align: right;
 }
+.copytxtfoot p{
+  font-family: "Courier Std";
+  letter-spacing: 2px;
+}
+
+.inp img{
+  max-width: 25px;
+}
+
+
+
 /* Home Section */
 
 .btn-home-checked input {
@@ -551,7 +562,7 @@ div#team {
 }
 
 .carouselItem {
-  padding-right: 30px;
+  padding: 0px 15px;
 }
 
 .card-div img {
@@ -941,6 +952,7 @@ section.active.section-bg {
   .spi {
     bottom: 0;
   }
+ 
 }
 @media screen and (max-width: 767px) {
   .footone {
@@ -1039,6 +1051,9 @@ section.active.section-bg {
   img.img-fluid.fire {
     left: 18px;
     top: 9px;
+  }
+  .card-div img{
+    height: 309px;
   }
 }
 @media screen and (max-width: 650px) {

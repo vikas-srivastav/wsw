@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { Nav, Navbar, NavDropdown} from "react-bootstrap";
 import { NavLink, Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import logo from "../Assets/image/WSW.png";
@@ -15,7 +15,7 @@ const Header = () => {
   }, []);
   return (
     <>
-      <section className={scroll ? "active-header header py-3" : "header py-3"}>
+      <section className={scroll ? "active-header header py-4" : "header py-4"}>
         <div className="container-wrap py-md-2">
           <div className="row ali-cen m-0">
             <div className="col-lg-2 col-6">
@@ -33,11 +33,13 @@ const Header = () => {
                         MINT
                       </NavLink>
                     </li>
-                    <NavDropdown title="ABOUT" id="basic-nav-dropdown">
+                    <li  id="head-nav">
+                    <NavDropdown title="ABOUT" id="basic-nav-dropdown" smooth to={"/#main-about"}>
                       <HashLink className="nav-link" smooth to={"/#main-about"}>
                         MANIFESTO
                       </HashLink>
                     </NavDropdown>
+                    </li>
                     <li id="head-nav">
                       <HashLink className="nav-link" smooth to={"/#roadmap"}>
                         ROADMAP
@@ -55,16 +57,20 @@ const Header = () => {
                     </li>
 
                     <li id="head-nav">
+                    <span className="red-span">soon!</span>
                       <NavLink className="nav-link" to="#">
                         STAKING
                       </NavLink>
                     </li>
 
                     <li id="head-nav">
+                    <span className="red-span">soon!</span>
                       <NavLink className="nav-link" to="#">
                         GALLERY
                       </NavLink>
                     </li>
+                    <li id="head-nav">
+                    <span className="red-span">soon!</span>
                     <NavDropdown title="MORE" id="basic-nav-dropdown">
                       <NavLink className="nav-link" to="#">
                         News
@@ -76,9 +82,10 @@ const Header = () => {
                         Store
                       </NavLink>
                     </NavDropdown>
+                    </li>
                   </Nav>
 
-                  <div className="social-icons">
+                  <div className="social-icons mt-md-4">
                     <a
                       href="https://discord.com/invite/PZ7TtYGH5c"
                       target="_blank"

@@ -7,6 +7,7 @@ import AnimImgtwo from "../../Assets/image/WSW_Animationtwo.png";
 
 const Roadmap = () => {
   const scrollableRef = useRef();
+  console.log(scrollableRef)
   const { active, handleTriggerClick, registerSectionRef, registerTriggerRef } =
     useActiveMenu({
       scrollableElement: scrollableRef.current,
@@ -14,7 +15,7 @@ const Roadmap = () => {
 
   return (
     <>
-      <nav className="triggers py-md-2">
+      <nav className="triggers py-md-5">
         <ul>
           <li>
             <button
@@ -63,7 +64,7 @@ const Roadmap = () => {
             <h3>ROADMAP</h3>
           </div>
           <div className="road-heads mx-md-3">
-            <h1 className="outline-txt mx-md-4">LAUNCH</h1>
+            <h1 className="outline-txt mx-md-2">LAUNCH</h1>
           </div>
           <div className="row">
             <div className="col-md-7 anim-list">
@@ -111,7 +112,7 @@ const Roadmap = () => {
         <section
           className={
             active === "section-2"
-              ? "active section-bg white-txt pt-md-3"
+              ? "active section-bg white-txt pt-md-5"
               : "section-bg white-txt pt-md-3"
           }
           ref={registerSectionRef("section-2")}
@@ -176,7 +177,7 @@ const Roadmap = () => {
         <section
           className={
             active === "section-3"
-              ? "active section-bg white-txt pt-md-3"
+              ? "active section-bg white-txt pt-md-5"
               : "section-bg white-txt pt-md-3"
           }
           ref={registerSectionRef("section-3")}

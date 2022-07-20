@@ -55,6 +55,7 @@ a.nav-link {
 }
 .navbar-light .navbar-nav {
   color: #fff !important;
+  text-align: center;
 }
 
 .social-icons a {
@@ -103,20 +104,18 @@ a.nav-link {
   border: none !important;
   padding: 0px;
 }
-.navbar-toggler .navbar-toggler-icon{
-  background-image: url('../image/crosss.png') !important;
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url("../image/crosss.png") !important;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-
-.collapsed .navbar-toggler-icon{
-  background-image:url('../image/hamb.webp') !important;
-  }
-
-
-
-
+.collapsed .navbar-toggler-icon {
+  background-image: url("../image/hamb.webp") !important;
+}
+.ali-cen{
+  align-items: baseline;
+}
 
 /* header css end */
 /* Footer Css  */
@@ -196,6 +195,7 @@ a.nav-link {
 .footone h6 {
   color: #fff !important;
   margin-left: 12px;
+  letter-spacing: 3px;
 }
 .col-right {
   text-align: right;
@@ -267,7 +267,7 @@ a.nav-link {
   background-repeat: no-repeat;
 }
 .tkn img {
-  width: 70px;
+  width: 100px;
 }
 .tkn button {
   background: no-repeat;
@@ -301,15 +301,15 @@ a.nav-link {
   border-radius: 15px;
   width: 28px;
   height: 28px;
-  animation: 1s  infinite spinner;
+  animation: 1s infinite spinner;
   box-shadow: #dfd6d5 0px 0px 12px 4px;
 }
 
-@keyframes spinner{
-  from{
+@keyframes spinner {
+  from {
     transform: rotate(0turn);
   }
-  to{ 
+  to {
     transform: rotate(1turn);
   }
 }
@@ -363,7 +363,7 @@ a.nav-link {
   transform: rotate(31deg) translate(-77px, 27px);
 }
 .home-para p {
-  opacity: 0.7;
+  font-family: "CourierStd";
 }
 
 /* About Section */
@@ -398,8 +398,6 @@ div#about-us:before {
   max-width: 480px;
   margin-top: -28px;
 }
-
-
 
 /* RoadMap Section */
 
@@ -446,8 +444,8 @@ div#about-us:before {
 /* Team Section */
 
 .teamtitle {
-  max-width: 720px;
-  margin-left: 75px;
+  max-width: 780px;
+  text-align: justify;
 }
 .card-info a {
   color: #ffffff;
@@ -474,14 +472,14 @@ div#about-us:before {
 }
 
 .card-div:hover {
-  box-shadow: 9px 0px 0px #000, -2px 5px 0px #000, 11px 5px 0px #000,
+  box-shadow: 9px 0px 0px #000, -1px 5px 0px #000, 11px 5px 0px #000,
     7px -1px 0px #000;
   background: #eb3323;
   transition: all 1s ease;
 }
 .card-div {
   border-radius: 21px;
-  box-shadow: 9px 0px 0px #eb3323, -2px 5px 0px #eb3323, 11px 5px 0px #eb3323,
+  box-shadow: 9px 0px 0px #eb3323, -1px 5px 0px #eb3323, 11px 5px 0px #eb3323,
     7px -1px 0px #eb3323;
   cursor: pointer;
 }
@@ -544,31 +542,32 @@ div#team {
   margin: 0px 3px;
 }
 
-.bhRnqO,.kVtMtA{
+.bhRnqO,
+.kVtMtA {
   top: calc(50% - 50.5px) !important;
 }
-.bqyzQp{
+.bqyzQp {
   position: unset !important;
 }
 
-.carouselItem{
-  padding-right: 30px
-} 
+.carouselItem {
+  padding-right: 30px;
+}
 
-.card-div img{
+.card-div img {
   border-radius: 20px 20px 0px 0px;
 }
 .react-multi-carousel-list {
-  height: 450px;
+  height: 460px;
   position: unset !important;
 }
 .react-multi-carousel-track {
   height: 450px;
 }
-button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--left{
+button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--left {
   left: 0;
 }
-button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--right{
+button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--right {
   right: 0;
 }
 img.img-fluid.fire {
@@ -577,7 +576,12 @@ img.img-fluid.fire {
   width: 72%;
   left: 28px;
 }
-
+.Typewriter__wrapper {
+  font-family: "Courier Std";
+  letter-spacing: 2px;
+  color: #000000;
+  font-size: 19px !important;
+}
 
 /*  Faq section  */
 #faq {
@@ -711,9 +715,6 @@ button.accordion-button.collapsed {
   background-repeat: no-repeat;
 }
 .section-bg {
-  /* background-image: url("../image/Section3_BG.jpg");
-  background-size: cover;
-  background-repeat: no-repeat; */
   background: transparent;
 }
 .anim-img img {
@@ -721,10 +722,11 @@ button.accordion-button.collapsed {
 }
 .anim-list ul li {
   color: #fff;
-  padding: 10px;
+  padding: 5px;
   letter-spacing: 1px;
   list-style: none;
   position: relative;
+  font-family: "CourierStdLight";
 }
 .anim-list ul li:before {
   content: "";
@@ -771,12 +773,12 @@ button.accordion-button.collapsed {
   padding: 1rem;
   max-width: 20px;
   position: absolute;
-  height: 400px;
+  height: 450px;
   margin-top: 70px;
 }
 .triggers ul {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -798,7 +800,7 @@ button.accordion-button.collapsed {
 }
 
 .sections {
-  height: 600px;
+  height: 800px;
   overflow: auto;
 }
 .section-bg .row {
@@ -815,6 +817,7 @@ button.accordion-button.collapsed {
 section.section-bg {
   opacity: 0;
   transition: all 1s ease;
+  height: 800px;
 }
 
 section.active.section-bg {
@@ -832,6 +835,10 @@ section.active.section-bg {
     height: 70px;
     transition: all 1s ease;
   }
+  .accordion-item {
+    margin-left: 10rem !important;
+    margin-right: 10rem !important;
+  }
 
   .wrap-card-content .twoh-div {
     position: absolute;
@@ -846,11 +853,12 @@ section.active.section-bg {
   .card-div:hover .twoh-div {
     height: 200px;
   }
+  .navbar-light .navbar-nav{
+    text-align: end;
+    align-items: end;
+  }
 }
 @media screen and (max-width: 1180px) {
-  .social-icons .fa-instagram {
-    padding-left: 15px;
-  }
   .header .nav-link {
     font-size: 12px;
   }
@@ -906,6 +914,9 @@ section.active.section-bg {
   .social-icons {
     justify-content: center;
     padding: 20px 0px;
+  }
+  #head-nav span{
+    display: none;
   }
 }
 @media screen and (max-width: 980px) {
@@ -974,10 +985,10 @@ section.active.section-bg {
   .nac-res {
     margin-top: -41px;
   }
-  .accordion-item {
+  /* .accordion-item {
     margin-right: 0rem !important;
     margin-left: 0rem !important;
-  }
+  } */
   .roadmap {
     padding-right: 0rem !important;
     padding-left: 0rem !important;
@@ -1025,7 +1036,7 @@ section.active.section-bg {
   .road-heads h1 {
     font-size: 42px !important;
   }
-  img.img-fluid.fire{
+  img.img-fluid.fire {
     left: 18px;
     top: 9px;
   }
@@ -1065,8 +1076,7 @@ section.active.section-bg {
 }
 
 /* Header Section Text Large to Small*/
-.myAnimation h2{
-  
+.myAnimation h2 {
   font-size: 40px;
   animation: fadeIn 10s;
   -webkit-animation: fadeIn 10s;
@@ -1076,39 +1086,58 @@ section.active.section-bg {
 }
 
 @keyframes fadeIn {
-  0% { font-size: 60px; }
-  100% { font-size: 40px; }
+  0% {
+    font-size: 60px;
+  }
+  100% {
+    font-size: 40px;
+  }
 }
 
 @-moz-keyframes fadeIn {
-  0% { font-size: 60px; }
-  100% { font-size: 40px; }
+  0% {
+    font-size: 60px;
+  }
+  100% {
+    font-size: 40px;
+  }
 }
 
 @-webkit-keyframes fadeIn {
-  0% { font-size: 60px; }
-  100% { font-size: 40px; }
+  0% {
+    font-size: 60px;
+  }
+  100% {
+    font-size: 40px;
+  }
 }
 
 @-o-keyframes fadeIn {
-  0% { font-size: 60px; }
-  100% { font-size: 40px; }
+  0% {
+    font-size: 60px;
+  }
+  100% {
+    font-size: 40px;
+  }
 }
 
 @-ms-keyframes fadeIn {
-  0% { font-size: 60px; }
-  100% { font-size: 40px; }
+  0% {
+    font-size: 60px;
+  }
+  100% {
+    font-size: 40px;
+  }
 }
-
 
 .left-img i {
   color: #eb3323;
   cursor: pointer;
   border: 2px solid #fff;
-  padding: 4px;
+  padding: 2px;
   border-radius: 15px;
-  width: 28px;
-  height: 28px;
+  width: 24px;
+  height: 24px;
   animation: glowing 1300ms infinite;
   box-shadow: #dfd6d5 0px 0px 12px 4px;
 }

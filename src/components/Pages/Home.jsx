@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-import Token from "../../Assets/image/Token.png";
+import Tokens from "../../Assets/image/Tokens.png";
 import NFT from "../../Assets/image/NFT.png";
 import AboutUs from "../landingPages/AboutUs";
 import Arrow from "../../Assets/image/arrow.png";
@@ -27,7 +27,7 @@ const Home = () => {
     <>
       <div id="home-head" className="pt-5">
         <div className="container-wrap pt-5">
-          <div className="row pt-5 align-items-center mt-4">
+          <div className="row pt-5 align-items-center">
             <div className="col-lg-4 px-0 pb-5 pb-lg-0" id="right-flex">
               {/*<div className="rgt-text mt-3">
                 <h2 className="outline-txt text-white mb-0 letter-space">CLICK</h2>
@@ -46,7 +46,7 @@ const Home = () => {
               <div className={ playAnimation ? '' : 'myAnimation'}>
                 <div className="rgt-text mt-3">
                 <h2 className="outline-txt text-white mb-0 letter-space">CLICK</h2>
-                <h2 className="hthree text-white mb-0 mt-2">TO MINt</h2>
+                <h2 className="hthree text-white mb-0 mt-1">TO MINt</h2>
                 </div>
               </div>  
               <div className="rgt-arow pt-5 mx-2">
@@ -55,7 +55,7 @@ const Home = () => {
               <div className="tkn pt-4">
                 <button>
                   <Link to="#">
-                    <img src={Token} alt="Token" className="img-fluid rotate" />
+                    <img src={Tokens} alt="Token" className="img-fluid rotate" />
                   </Link>
                 </button>
               </div>
@@ -65,7 +65,7 @@ const Home = () => {
             <div className="col-lg-8 homeleft p-0">
               <div className="row">
               <div className="left-img text-end">
-                <div className="dot-btn">
+                <div className="dot-btn mt-md-5">
                 {value === "first-text" ? (
                   <div className="home-para">
                   <p className="mb-md-0">Our mission is to become</p>

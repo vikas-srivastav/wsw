@@ -39,15 +39,15 @@ const Team = () => {
     <>
       <div id="team" className="pt-3 scroll-top">
         <div className="container-wrap py-5">
-          <div className="teamtitle px-md-5">
+          <div className="teamtitle px-md-5 mx-5">
             <h2 className="red-txt pb-2">TEAM</h2>
             <Typewriter
               onInit={(typewriter) => {
                 typewriter
                   .typeString(
                     `
-                  Our founding team is an excellent combination of <span class="red-span"> technology and 
-                  strategy.</span> Our founders have professional experience in financial 
+                  Our founding team is an excellent combination of <span class="red-span">technology and</span>
+                  <span class="red-span">strategy.</span> Our founders have professional experience in financial 
                   analysis, data plotting, software/product development, marketing, 
                   and are excited to bring this to not only the project but to our 
                   holders by educating them as well.`
@@ -58,7 +58,7 @@ const Team = () => {
           </div>
 
           <div className="team-slide px-md-5 pt-3 pb-5">
-            <Carousel responsive={responsive}  infinite={true} autoPlay={true} itemClass='carouselItem'>
+            <Carousel responsive={responsive}  infinite={true} autoPlay={true} autoPlaySpeed={2000} itemClass='carouselItem'>
               <div className="card-div">
                 <img width="100%" src={imgone} alt="Brett" />
                 <div className="wrap-card-content">

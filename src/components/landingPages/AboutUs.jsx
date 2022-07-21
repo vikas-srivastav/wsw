@@ -25,6 +25,7 @@ const AboutUs = () => {
                   <h2 className="htwo">ABOUt</h2>
                   <TypeWriterEffect
                     textStyle={{
+                      width: "564px",
                       fontFamily: "CourierStd",
                       fontSize: "18px",
                       letterSpacing: "2px",
@@ -38,7 +39,7 @@ const AboutUs = () => {
                     text="Wall Street Wolves is a project that hunts sand invests into
             opportunities and projects for a community vault that you
             can earn shares in!"
-                    typeSpeed={100}
+                    typeSpeed={120}
                     scrollArea={myRef}
                     hideCursorAfterText={true}
                   />
@@ -52,12 +53,12 @@ const AboutUs = () => {
                         fontSize: "18px",
                         letterSpacing: "2px",
                         color: "#000",
-                        textAlign: "justify"
+                        textAlign: "right"
                       }}
-                      startDelay={15000}
+                      startDelay={100}
                       cursorColor="black"
                       text="Well versed in all markets,our pack dedicates their time to not only finding the right prey,but teaching you to hunt along the way."
-                      typeSpeed={100}
+                      typeSpeed={120}
                       scrollArea={myRef}
                       hideCursorAfterText={true}
                     />
@@ -72,10 +73,10 @@ const AboutUs = () => {
                         color: "#000",
                         textAlign: "justify"
                       }}
-                      startDelay={28000}
+                      startDelay={15000}
                       cursorColor="black"
                       text="Join our ranks, leave the comfort of the den, and earn your rise to the top as an Alpha Wolf."
-                      typeSpeed={100}
+                      typeSpeed={120}
                       scrollArea={myRef}
                       hideCursorAfterText={true}
                     />

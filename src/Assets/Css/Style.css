@@ -489,7 +489,7 @@ div#about-us:before {
   transition: all 1s ease;
 }
 .card-div {
-  border-radius: 21px;
+  border-radius: 28px;
   box-shadow: 9px 0px 0px #eb3323, -1px 5px 0px #eb3323, 11px 5px 0px #eb3323,
     7px -1px 0px #eb3323;
   cursor: pointer;
@@ -510,7 +510,7 @@ div#about-us:before {
   margin: 0px 4px;
 }
 .twoh-div {
-  padding: 10px;
+  padding: 10px 15px 10px;
 }
 
 .spi {
@@ -562,7 +562,7 @@ div#team {
 }
 
 .carouselItem {
-  padding: 0px 15px;
+  padding: 0px 20px;
 }
 
 .card-div img {

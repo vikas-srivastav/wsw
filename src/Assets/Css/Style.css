@@ -771,13 +771,13 @@ button.accordion-button.collapsed {
   align-items: center;
 }
 .aft-head {
-  letter-spacing: 20px;
+  letter-spacing: 15px;
 }
 .road-heads h1 {
-  font-size: 8.25rem;
+  font-size: 4rem;
 }
 .head-one h2 {
-  font-size: 47px;
+  font-size: 24px;
 }
 
 .triggers {
@@ -822,9 +822,6 @@ button.accordion-button.collapsed {
 .sections section {
   padding: 1rem;
 }
-/* .sections section:nth-child(odd) {
-  background-color: #f0f0f0;
-} */
 section.section-bg {
   opacity: 0;
   transition: all 1s ease;

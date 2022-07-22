@@ -25,14 +25,11 @@ const AboutUs = () => {
                   <h2 className="htwo">ABOUt</h2>
                   <TypeWriterEffect
                     textStyle={{
-                      width: "564px",
                       fontFamily: "CourierStd",
                       fontSize: "18px",
                       letterSpacing: "2px",
                       color: "#000",
-                      marginTop: "1.5rem",
-                      
-
+                      marginTop: "1.5rem"
                     }}
                     startDelay={100}
                     cursorColor="black"
@@ -53,7 +50,7 @@ const AboutUs = () => {
                         fontSize: "18px",
                         letterSpacing: "2px",
                         color: "#000",
-                        textAlign:"right"
+                        //textAlign:"right"
                       }}
                       startDelay={100}
                       cursorColor="black"

@@ -58,7 +58,7 @@ const Team = () => {
           </div>
 
           <div className="team-slide px-md-5 pt-3 pb-5">
-            <Carousel responsive={responsive}  infinite={true} autoPlay={true} autoPlaySpeed={2000} itemClass='carouselItem'>
+            <Carousel responsive={responsive}  infinite={true} autoPlay={false} autoPlaySpeed={2000} itemClass='carouselItem'>
               <div className="card-div">
                 <img width="100%" src={imgone} alt="Brett" />
                 <div className="wrap-card-content">

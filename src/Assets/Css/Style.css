@@ -308,12 +308,18 @@ a.nav-link {
   color: #eb3323;
   cursor: pointer;
   border: 2px solid #fff;
-  padding: 4px;
+  padding: 0px;
   border-radius: 15px;
-  width: 28px;
-  height: 28px;
+  width: 18px;
+  height: 18px;
   animation: 1s infinite spinner;
   box-shadow: #dfd6d5 0px 0px 12px 4px;
+}
+.fa-circle:before{
+  content: "\f111";
+    font-size: 14px;
+    position: relative;
+    bottom: 2px;
 }
 
 @keyframes spinner {
@@ -859,7 +865,7 @@ section.active.section-bg {
     transition: all 1s ease;
   }
   .card-div:hover .wrap-card-content {
-    height: 165px;
+    height: 195px;
   }
   .card-div:hover .twoh-div {
     height: 200px;
@@ -1055,6 +1061,12 @@ section.active.section-bg {
   .card-div img{
     height: 309px;
   }
+  .carouselItem {
+    padding: 0px 35px 0px 29px;
+  }
+  .accordion-item{
+    margin: 1em 1em;
+  }
 }
 @media screen and (max-width: 650px) {
   .left-img {
@@ -1089,6 +1101,29 @@ section.active.section-bg {
     font-size: 12px;
   }
 }
+@media screen and (max-width: 900px) and (min-width: 767px){
+  .left-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .text-end{
+    display: flex;
+    justify-content: center;
+  }
+  #right-flex{
+    justify-content: center;
+  }
+  .tkn img{
+    width: 100%;
+  }
+  .teamtitle{
+    padding-top: 80px;
+  }
+  
+}
+
+
 
 /* Header Section Text Large to Small*/
 .myAnimation h2 {
@@ -1143,18 +1178,6 @@ section.active.section-bg {
   100% {
     font-size: 40px;
   }
-}
-
-.left-img i {
-  color: #eb3323;
-  cursor: pointer;
-  border: 2px solid #fff;
-  padding: 2px;
-  border-radius: 15px;
-  width: 24px;
-  height: 24px;
-  animation: glowing 1300ms infinite;
-  box-shadow: #dfd6d5 0px 0px 12px 4px;
 }
 
 @keyframes glowing {

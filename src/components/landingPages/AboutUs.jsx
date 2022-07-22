@@ -31,7 +31,7 @@ const AboutUs = () => {
                       letterSpacing: "2px",
                       color: "#000",
                       marginTop: "1.5rem",
-                      textAlign: "justify"
+                      
 
                     }}
                     startDelay={100}
@@ -53,7 +53,7 @@ const AboutUs = () => {
                         fontSize: "18px",
                         letterSpacing: "2px",
                         color: "#000",
-                        textAlign: "right"
+                        textAlign:"right"
                       }}
                       startDelay={100}
                       cursorColor="black"
@@ -71,7 +71,6 @@ const AboutUs = () => {
                         fontWeight: "bold",
                         letterSpacing: "2px",
                         color: "#000",
-                        textAlign: "justify"
                       }}
                       startDelay={15000}
                       cursorColor="black"

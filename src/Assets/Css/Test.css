@@ -1,0 +1,65 @@
+  
+  .sections > div {
+    vertical-align: top;
+    height: 750px;
+    padding-left: 10px;
+  }
+  .left,
+  .middle {
+    display: table-cell;
+    height: 80vh;
+    box-sizing: border-box;
+  }
+  .left {
+    width: 40%;
+    background: transparent;
+  }
+  
+  .middle {
+    overflow: auto;
+    position: relative;
+  }
+  
+  .in-middle {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    position: absolute;
+    left: 0;
+  }
+  .in-in-middle {
+    height: 760px;
+  }
+  
+  
+  .left img {
+    transition: all 0.5s;
+    margin-top: 134px
+    
+  }
+
+  .middle::-webkit-scrollbar {
+    display: none;
+  }
+  
+.rightsec-road h3{
+    color: #fff;
+    padding-top: 40px;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+.road-heads h1{
+    color: #fff;
+}
+@media(min-width:981px){
+.anim-list ul{
+    width: 650px;
+}
+
+}
+.rgt-sec{
+    flex: 0 0 auto;
+    width: 3.333333% !important;
+}

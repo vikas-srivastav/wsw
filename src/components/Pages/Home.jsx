@@ -7,6 +7,7 @@ import Roadmap from "../landingPages/Roadmap";
 import Team from "../landingPages/Team";
 import FAQS from "../landingPages/FAQS";
 import { Link } from "react-router-dom";
+import Test from "../Test";
 
 const Home = () => {
   const [value, setValue] = useState("first-text");
@@ -113,7 +114,7 @@ const Home = () => {
       </div>
       <div id="roadmap" className="scroll-top">
       <div className="container-wrap">
-        <Roadmap />
+        <Test />
    
         </div>
       </div>
@@ -132,6 +133,8 @@ const Home = () => {
         </div>
       </div>
       {/* END FAQ SECTION */}
+
+      {/* <Test/> */}
     </>
   );
 };
